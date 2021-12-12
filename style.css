@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    background: red;
+}
+
+.container {
+    height: 100vh;
+}
+
+.window {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    /*margin: auto;  автоматически подбирает равный внешний отступ слева и справа, если position не absolute       */
+    color: black;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    background: azure;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+}
+
+.image-container img {
+    max-height: 70%;
+    max-width: 70%;
+    border-radius: 30px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    width: 59%;
+}
+
+.info > div {
+    margin-bottom: 5px;
+}
+
+.info-title {
+    text-align: center;
+    background-color: azure;
+}
+
+.info-subtitle {
+    text-align: center;
+    background-color: azure;
+}
+
+.info-description {
+    padding: 5px;
+    text-align: center;
+    background-color: azure;
+}
+
+.info-icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icon {
+    font-size: larger;
+    margin: 15px;
+    cursor: pointer;
+}
+
+i[name="telegram"] {
+    color: steelblue;
+}
+
+i[name="twitter"] {
+    color: aqua;
+}
+
+.info-button {
+    margin-top: 15px;
+    text-align: center;
+    background-color: azure;
+}
+
+.window:hover {
+    box-shadow: 4px 4px 8px rgba(34, 60, 80, 0.2);
+}
+
