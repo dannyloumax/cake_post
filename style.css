@@ -47,8 +47,7 @@ button {
 .info {
     display: flex;
     flex-direction: column;
-    background-color: azure;
-    width: 59%;
+    width: 60%;
 }
 
 .info > div {
@@ -57,18 +56,15 @@ button {
 
 .info-title {
     text-align: center;
-    background-color: azure;
 }
 
 .info-subtitle {
     text-align: center;
-    background-color: azure;
 }
 
 .info-description {
     padding: 5px;
     text-align: center;
-    background-color: azure;
 }
 
 .info-icons-container {
@@ -94,7 +90,6 @@ i[name="twitter"] {
 .info-button {
     margin-top: 15px;
     text-align: center;
-    background-color: azure;
 }
 
 .window:hover {
